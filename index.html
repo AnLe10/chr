@@ -7,28 +7,70 @@
         <!--=============== FAVICON ===============-->
         <link rel="shortcut icon" href="" type="image/x-icon">
 
-        <!--=============== BOXICONS ===============-->
-        
+<!--=============== REMIXICONS ===============-->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
         <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./assets/css/styles.css">
 
-        <title>Responsive coffee website - Bedimcode</title>
+        <title>Responsive coffee website - Daenv Le</title>
     </head>
     <body>
         <!--==================== LOADER ====================-->
-        
+        <button class="button__loader">
+            <span class="button__text">
+                Loading ....
+            </span>
+        </button>
 
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
-            
+            <nav class="nav container">
+                <i class="ri-cup-fill theme-logo"></i>
+                <a href="#" class="nav__logo">Coffee Website</a>
+
+                <div class="nav__menu" id="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__
+                            link ">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#premium" class="nav__link">Premium</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#blog" class="nav__link">Blog</a>
+                        </li>
+                    </ul>
+                    <div class="nav__dark">
+                        <span class="nav__dark">
+                            Dark mode
+                        </span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
         </header>
 
         <!--==================== MAIN ====================-->
         <main>
             <!--==================== HOME ====================-->
             <section class="home grid" id="home">
-                
+                <img src="./assets/img/home.png" alt="" class="home__img">    
+
+                <div class="home__container container gird">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Choose your <br> Favorite Coffee <br> And Enjoy</span>
+                    </div>
+                </div>
             </section>
 
             <!--==================== ESPECIALTY ====================-->
